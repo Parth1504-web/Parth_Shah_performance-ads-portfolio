@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Parth Shah | Performance Ads Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{background:#0f172a;color:#e5e7eb;font-family:Arial;margin:0}
+.container{max-width:1200px;margin:auto;padding:50px}
+nav button{padding:10px 18px;margin-right:10px;background:#111827;color:#fff;border:1px solid #1f2933;border-radius:6px}
+.section{display:none}
+.section.active{display:block}
+img{width:100%;margin:20px 0;border-radius:10px;border:1px solid #1f2933}
+</style>
+<script>
+function show(id){
+document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+document.getElementById(id).classList.add('active');
+}
+</script>
+</head>
+<body>
+<div class="container">
+<h1>Parth Shah</h1>
+<p>Amazon Ads | Google Ads | Meta Ads</p>
+<p>📞 +91 9033156336 | ✉️ parthshah654@gmail.com</p>
+
+<nav>
+<button onclick="show('amazon')">Amazon Ads</button>
+<button onclick="show('google')">Google Ads</button>
+<button onclick="show('meta')">Meta Ads</button>
+</nav>
+
+<div id="amazon" class="section active">
+<h2>Amazon Ads</h2>
+<img src="assets/amazon/Sheet1_image_1.png"><img src="assets/amazon/Sheet1_image_2.png"><img src="assets/amazon/Sheet1_image_3.png"><img src="assets/amazon/Sheet1_image_4.png"><img src="assets/amazon/Sheet1_image_5.png"><img src="assets/amazon/Sheet1_image_6.png"><img src="assets/amazon/Sheet1_image_7.png"><img src="assets/amazon/Sheet1_image_8.png">
+</div>
+
+<div id="google" class="section">
+<h2>Google Ads</h2>
+<img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0038.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0039.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0040.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0041.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0042.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0043.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0044.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0045.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0046.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0047.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0048.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0049.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0050.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0051.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0052.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0053.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0054.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0055.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0056.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0057.jpg"><img src="assets/google/793c84d2-37a6-4a91-9fc0-d97463817b7e-0058.jpg">
+</div>
+
+<div id="meta" class="section">
+<h2>Meta Ads</h2>
+<img src="assets/meta/real_estate.png"><img src="assets/meta/nvq_level_6.png"><img src="assets/meta/education_real_estate.png"><img src="assets/meta/home_tutor.png"><img src="assets/meta/europhica.png">
+</div>
+
+</div>
+</body>
+</html>
